@@ -8,10 +8,10 @@ export const Whiteboard = React.memo(({ roomId }) => {
   return (
     <Tldraw
       autofocus
-      disableAssets={true}
-      showSponsorLink={false}
+      disableAssets={false}
+      showSponsorLink={true}
       showPages={true}
-      showMenu={false}
+      showMenu={true}
       {...events}
     />
   );
