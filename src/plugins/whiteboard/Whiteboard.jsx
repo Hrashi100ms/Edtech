@@ -10,7 +10,7 @@ export const Whiteboard = React.memo(({ roomId }) => {
       autofocus
       disableAssets={true}
       showSponsorLink={false}
-      showPages={false}
+      showPages={true}
       showMenu={false}
       {...events}
     />
